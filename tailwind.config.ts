@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -84,6 +85,15 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 6s ease-in-out infinite",
+        "glow": "glow 2s ease-in-out infinite",
+        "slide-up": "slide-up 0.5s ease-out",
+        "fade-in": "fade-in 0.6s ease-out",
+      },
+      backgroundImage: {
+        "gradient-galaxy": "var(--gradient-galaxy)",
+        "gradient-glow": "var(--gradient-glow)",
+        "gradient-cyan": "var(--gradient-cyan)",
       },
     },
   },
